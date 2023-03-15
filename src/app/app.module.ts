@@ -12,6 +12,9 @@ import { ServicesComponent } from './services/services.component';
 import { DepartmentComponent } from './department/department.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { DoctorComponent } from './doctor/doctor.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -25,6 +28,9 @@ import { DoctorComponent } from './doctor/doctor.component';
     DepartmentComponent,
     AppointmentComponent,
     DoctorComponent,
+    GalleryComponent,
+    RegisterComponent,
+    LoginComponent,
    
   ],
   imports: [
